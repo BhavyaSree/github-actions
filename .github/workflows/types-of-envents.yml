@@ -1,0 +1,16 @@
+# Name of the workflow
+name: Path Events
+
+# When following event occur
+on:
+  push:
+    paths:
+    - '.github/workflows/*'
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo One of the workflows has been changed
