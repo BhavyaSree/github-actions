@@ -15,5 +15,7 @@ A demo repository for GiHub Actions
   * `page_build`
   * `release`
     * `types`: `[published, created, edited] `
+  * `issue_created`
+  ...
 * Scheduled Events `schedule`
 * External Events `Repository_dispatch`
